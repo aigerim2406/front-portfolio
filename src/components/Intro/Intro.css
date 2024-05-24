@@ -1,3 +1,19 @@
+.gaba-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  margin-top: -20px;
+}
+
+
+.gaba-image {
+  width: 250px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+
 .Intro {
   display: flex;
   height: 77vh;

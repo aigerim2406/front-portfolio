@@ -4,9 +4,14 @@
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-
 }
-/* heading */
+
+.portfolio-image {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+}
+
 .portfolio span:nth-of-type(1) {
   color: var(--black);
   font-size: 2rem;
@@ -19,7 +24,6 @@
   font-weight: bold;
 }
 
-/* slider */
 .portfolio .swiper{
     overflow: visible!important;
 }
